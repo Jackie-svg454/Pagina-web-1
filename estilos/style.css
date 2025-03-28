@@ -1,0 +1,111 @@
+/* Importamos una fuente llamativa de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #FF6F61, #FF9A8B);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #8b061c;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #FF6F61;
+    font-size: 2rem;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    text-align: left;
+    color: #a10923;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #FF9A8B;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+ul li:hover {
+    background: #FF6F61;
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: right;
+    color: rgb(155, 7, 26);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.imagen {
+    width: 300px;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
